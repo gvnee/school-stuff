@@ -1,0 +1,12 @@
+DESCRIBE Author;
+
+ALTER TABLE Author
+DROP COLUMN age;
+
+DESCRIBE Author;
+
+ALTER TABLE Employee
+DROP COLUMN age;
+
+ALTER TABLE zahialagch
+DROP COLUMN age;

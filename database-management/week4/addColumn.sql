@@ -1,0 +1,12 @@
+DESCRIBE Author;
+
+ALTER TABLE Author
+ADD age INT NOT NULL;
+
+DESCRIBE Author;
+
+ALTER TABLE Zahialagch
+ADD age INT NOT NULL;
+
+ALTER TABLE Employee
+ADD age INT NOT NULL CHECK (age>=16);
